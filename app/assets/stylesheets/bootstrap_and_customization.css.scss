@@ -1,11 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500,700);
 
 $font-family-sans-serif: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$jumbotron-bg: #ecf0f1;
-$navbar-default-bg: #2980b9;
-$navbar-default-link-color: white;
+$jumbotron-bg: white;
+$navbar-default-bg: white;
+$brand-primary: #3498db;
+$navbar-default-link-color: #95a5a6;
 $navbar-height: 45px;
-$body-bg:  #3498db;
+$body-bg:  #ecf0f1;
+$navbar-default-brand-color: #3498db;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
