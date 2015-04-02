@@ -1,6 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:500,700);
+
+$font-family-sans-serif: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $jumbotron-bg: #ecf0f1;
 $navbar-default-bg: #2980b9;
 $navbar-default-link-color: white;
+$navbar-height: 45px;
 $body-bg:  #3498db;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight:bold;
+}
